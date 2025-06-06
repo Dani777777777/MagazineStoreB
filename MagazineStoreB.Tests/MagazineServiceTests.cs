@@ -9,7 +9,7 @@ namespace MagazineStoreB.Tests
     public class MagazineServiceTests
     {
         private readonly Mock<IMagazineRepository> _magazineRepositoryMock;
-        private readonly Mock<IAuthorRepository> _AuthorRepositoryMock;
+        private readonly Mock<IAuthorRepository> _authorRepositoryMock;
 
         private List<Magazine> _magazine = new List<Magazine>()
         {
